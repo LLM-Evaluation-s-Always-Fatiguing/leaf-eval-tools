@@ -1,0 +1,35 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info
+dist/
+build/
+*.egg-info/
+*.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm, VS Code
+.idea/
+.vscode/
+
+# Operating system related
+.DS_Store
+
+# example outputs
+output/
+outputs/
+result/
+results/
+tmp/
+temp/
+
+# dev workdirs
+dev/
+
+# leaf dirs
+.leaf/
+.leaf_*
