@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "leaf-eval-tools"
-version = "0.1.0.dev0"
-description = "A project that provides eval tools for leaf-playground project"
+version = "0.1.0"
+description = "A project that provides eval tools for leaf-playground based projects"
 authors = [
     "The LEAF team (past and future) with the help of all our contributors <leaf@shanda.com>",
 ]
