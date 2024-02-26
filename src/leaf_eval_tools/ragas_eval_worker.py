@@ -1,5 +1,10 @@
 from typing import Any, Dict, Literal, List, Optional, Union
 
+try:
+    import ragas
+except ImportError:
+    raise ImportError("ragas not installed, please running `pip install leaf-eval-tools[ragas]` to enable ragas.")
+
 from datasets import Dataset
 from ragas import evaluate
 from ragas.evaluation import Result
